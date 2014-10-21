@@ -16,12 +16,12 @@ notes and presentations, examples (ipython notebooks) and homeworks. (This repos
 changes continuously as the course advances).
 
 *  [SYLLABUS]
-    (https://github.com/sbustamante/ComputationalMethods)
+    (https://github.com/sbustamante/ComputationalMethods/blob/master/syllabus/syllabus.pdf?raw=true)
     
     Detailed description of the program of the course, including a brief motivation and presentation, 
     topics to be covered, evaluation and bibliography.
     
-0.  PYTHON *(2 weeks)*
+*  PYTHON *(1 week)*
 
     Overview of python, scripting, implementation of scientific libraries, plotting with matplotlib. 
     Ipython notebooks.
