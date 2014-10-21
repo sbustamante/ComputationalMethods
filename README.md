@@ -1,4 +1,29 @@
-ComputationalMethods
-====================
+Computational Methods for Astronomy
+===================================
+by: **Sebastian Bustamante** *2014*
 
-Course of Computational Methods for Astronomy. Universidad de Antioquia
+This course is intended for students of Astronomy at the Universidad de Antioquia and will cover some 
+numerical methods commonly used in science and specially in astronomy from a formal context, but also 
+keeping a practical and computational approach, illustrating many useful applications in problems of 
+physics and astronomy.
+
+Almost the entire course will be developed in *Python* (when computational applications are required) 
+and slightly less in *C* (when computational performance is required). However students with knowledge 
+in other programming languages (non-privative) are also aimed to use them.
+
+In this repository it can be found all the related material of the course, including the detailed program, 
+notes and presentations, examples (ipython notebooks) and homeworks. (This repository may be subject to 
+changes continuously as the course advances).
+
+*  [SYLLABUS]
+    (https://github.com/sbustamante/ComputationalMethods)
+    
+    Detailed description of the program of the course, including a brief motivation and presentation, 
+    topics to be covered, evaluation and bibliography.
+    
+0.  PYTHON *(2 weeks)*
+
+    Overview of python, scripting, implementation of scientific libraries, plotting with matplotlib. 
+    Ipython notebooks.
+    
+...
