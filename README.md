@@ -29,7 +29,10 @@ as the course advances).
     
 *  PYTHON *(1 week)*
 
-    Overview of python, scripting, implementation of scientific libraries, plotting with matplotlib. 
-    Ipython notebooks.
+    - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb#Functions)
+    - Scripting 
+    - Implementation of scientific libraries
+    - Plotting with matplotlib.
+    - Ipython notebooks
     
 ...
