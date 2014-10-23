@@ -27,12 +27,18 @@ as the course advances).
     Detailed description of the program of the course, including a brief motivation and presentation, 
     topics to be covered, evaluation and bibliography.
     
-*  PYTHON *(1 week)*
-
-    - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb#Functions)
-    - Scripting 
+*  PYTHON *(2 week)*
+    
+    **Topics**
+    - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb)
+    - [Basic scripting](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb)
     - Implementation of scientific libraries
     - Plotting with matplotlib.
     - Ipython notebooks
+    
+    **Tasks**
+    - *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**)
+    
+    
     
 ...
