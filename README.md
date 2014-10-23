@@ -21,13 +21,13 @@ notebooks) and homeworks. (This repository may be subject to changes continuousl
 as the course advances).
 
 
-*  [SYLLABUS]
+*  [**SYLLABUS**]
     (https://github.com/sbustamante/ComputationalMethods/blob/master/syllabus/syllabus.pdf?raw=true)
     
     Detailed description of the program of the course, including a brief motivation and presentation, 
     topics to be covered, evaluation and bibliography.
     
-*  PYTHON *(2 week)*
+*  **PYTHON** *(2 weeks)*
     
     **Topics**
     - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb)
