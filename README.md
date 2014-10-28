@@ -32,7 +32,7 @@ as the course advances).
     **Topics**
     - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb)
     - [Basic scripting](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb)
-    - Implementation of scientific libraries
+    - [Implementation of scientific libraries](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/scientific-libraries.ipynb)
     - Plotting with matplotlib.
     - Ipython notebooks
     
