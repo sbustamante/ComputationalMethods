@@ -34,7 +34,7 @@ as the course advances).
     - [Basic scripting](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb)
     - [Implementation of scientific libraries](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/scientific-libraries.ipynb)
     - [Plotting with matplotlib](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/matplotlib.ipynb)
-    - Ipython notebooks
+    - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
     
     **Tasks**
     - *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**)
