@@ -38,13 +38,13 @@ as the course advances).
     
     **Tasks**
     - *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**)
-    - *Task02:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/halos-catalog.ipynb). (*due to:* **Nov 07**)
+    - *Task02:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/halos-catalog.ipynb). (*due to:* **Nov 08**)
     
 *  **MATHEMATICAL PRELIMINARIES** *(1 week)*
     
     **Topics**
-    - [Computer arithmetics. Round-off methods]
-    - [Algorithms and convergence]
+    - [Computer arithmetics. Round-off methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/computer-arithmetics.ipynb)
+    - Algorithms and convergence
     
     **Tasks**
     - *Task03:*
