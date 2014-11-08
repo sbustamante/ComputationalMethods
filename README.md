@@ -47,6 +47,6 @@ as the course advances).
     - Algorithms and convergence
     
     **Tasks**
-    - *Task03:*
+    - *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**)
 
 ...
