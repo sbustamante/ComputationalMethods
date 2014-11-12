@@ -48,5 +48,16 @@ as the course advances).
     
     **Tasks**
     - *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**)
+    
+*  **ONE VARIABLE EQUATIONS** *(2 weeks)*
+    
+    **Topics**
+    - Bisection method
+    - Fixed-point iteration
+    - Newton's methods. Error analysis
+    - Zeros of polynomials
+    
+    **Tasks**
+    - *Task04:* Solve the activities proposed in here.
 
 ...
