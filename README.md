@@ -52,7 +52,7 @@ as the course advances).
 *  **ONE VARIABLE EQUATIONS** *(2 weeks)*
     
     **Topics**
-    - [Bisection method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/bisection-method.ipynb)
+    - [Bisection method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Bisection-Method)
     - Fixed-point iteration
     - Newton's methods. Error analysis
     - Zeros of polynomials
