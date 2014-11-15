@@ -58,6 +58,6 @@ as the course advances).
     - Zeros of polynomials
     
     **Tasks**
-    - *Task04:* Solve the activities proposed in here.
+    - *Task04:* Solve the three activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **Nov 22**).
 
 ...
