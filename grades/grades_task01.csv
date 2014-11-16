@@ -1,12 +1,12 @@
-ID,Grade,Comments
-1036954494,,
-43492746,,
-1128399324,,
-1017235348,,
-1216717908,,
-1093785793,,
-1101692326,,
-97032810598,,
-1036639073,,
-1036948832,,
-96071814430,,
+#ID	Grade	Comments
+1036954494	4.7	PUNTO 2: Len es un entero, al dividir c/Len se toma división entera y se pierden cifras decimales del valor medio (-0.2). PUNTO 4: se define f como función de x, a y b, pero internamente se usa 'i' y 'j'. Es ineficiente definir la función en cada ciclo, se puede definir afuera y en el ciclo evaluarla (-0.1).
+43492746	0	No se entregó la tarea (-5).
+1128399324	4.5	PUNTO 1: primer ciclo for en j hace más iteraciones de las necesarias, es necesario implementar condición de parada (-0.2). PUNTO 2: n es un entero, al dividir suma/n se toma división entera y se pierden cifras decimales del valor medio (-0.2). PUNTO 8: qué método converge más rápido? (-0.1).
+1017235348	4.3	Puntos en archivos independientes, es complicada la lectura (-0.3). PUNTO 2: N es un entero, al dividir suma/N se toma división entera y se pierden cifras decimales del valor medio (-0.2). PUNTO 3: el uso de diccionarios no está bien implementado, la idea era asignar como key el nombre y como value la nota (-0.2).
+1216717908	3.6	Falta PUNTO 4 y PUNTO 5 (-1.2). PUNTO 3: el objetivo era utilizar diccionarios (-0.1). PUNTO 8: qué método converge más rápido? (-0.1).
+1093785793	4.7	ORGANIZAR CARPETA CON TAREAS. PUNTO 8: falta primera aproximación de pi, cual presenta más convergencia? (0.3).
+1101692326	0	No se entregó la tarea (-5).
+97032810598	5	
+1036639073	4.5	PUNTO 4, 6 y 7: la función eval(x) no realiza ninguna función, es redundante (-0.3). PUNTO 5: 1 no es numero primo, se debe indicar manualmente (-0.1). PUNTO 8: qué método converge más rápido? (-0.1).
+1036948832	4.8	PUNTO 3: estudiantes con nota de 5 no son incluidos (-0.1). PUNTO 5: 1 no es numero primo, se debe indicar manualmente (-0.1).
+96071814430	3.7	PUNTO 2: 11 es un entero, al dividir sum(x)/11 se toma división entera y se pierden cifras decimales del valor medio (-0.2). PUNTO 3: solo imprime el nombre de todos los estudiantes, no selecciona por nota (-0.5). Falta PUNTO 8 (-0.6).
