@@ -37,7 +37,7 @@ as the course advances).
     - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
     
     **Tasks**
-    - *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**) **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task01.csv)**
+    - *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**) **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task01.dat)**
     - *Task02:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/halos-catalog.ipynb). (*due to:* **Nov 08**)
     
 *  **MATHEMATICAL PRELIMINARIES** *(1 week)*
