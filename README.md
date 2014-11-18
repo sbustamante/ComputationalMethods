@@ -53,7 +53,7 @@ as the course advances).
     
     **Topics**
     - [Bisection method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Bisection-Method)
-    - Fixed-point iteration
+    - [Fixed-point iteration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Fixed-point-Iteration)
     - Newton's methods. Error analysis
     - Zeros of polynomials
     
