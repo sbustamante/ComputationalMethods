@@ -28,7 +28,7 @@ topics to be covered, evaluation and bibliography.
 Contents
 --------
 
-1.  ###**PYTHON** *(2 weeks)*
+1.  ### **PYTHON** *(2 weeks)*
     
     **Topics**
     - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb)
@@ -41,7 +41,7 @@ Contents
     - *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**) **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task01.dat)**
     - *Task02:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/halos-catalog.ipynb). (*due to:* **Nov 08**) **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task02.dat)**
     
-2.  ###**MATHEMATICAL PRELIMINARIES** *(1 week)*
+2.  ### **MATHEMATICAL PRELIMINARIES** *(1 week)*
     
     **Topics**
     - [Computer arithmetics. Round-off methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/computer-arithmetics.ipynb)
@@ -50,7 +50,7 @@ Contents
     **Tasks**
     - *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**)
     
-3.  ###**ONE VARIABLE EQUATIONS** *(2 weeks)*
+3.  ### **ONE VARIABLE EQUATIONS** *(2 weeks)*
     
     **Topics**
     - [Bisection method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Bisection-Method)
