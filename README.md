@@ -21,8 +21,8 @@ notebooks) and homeworks. (This repository may be subject to changes continuousl
 as the course advances).
 
 
-[**SYLLABUS**](https://github.com/sbustamante/ComputationalMethods/blob/master/syllabus/syllabus.pdf?raw=true)
-Detailed description of the program of the course, including a brief motivation and presentation, 
+[**SYLLABUS**](https://github.com/sbustamante/ComputationalMethods/blob/master/syllabus/syllabus.pdf?raw=true):
+detailed description of the program of the course, including a brief motivation and presentation, 
 topics to be covered, evaluation and bibliography.
 
 Contents
