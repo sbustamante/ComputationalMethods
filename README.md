@@ -61,4 +61,13 @@ Contents
 - *Task04:* Solve the three activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **Nov 22**).
 - *Task05:* Solve the activity discussed [during class](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radius-exoplanet.ipynb). (*due to:* **Nov 29**).
 
+### 4. **Interpolation Techniques** *(2 weeks)*
+    
+**Topics**
+- [Linear interpolation. Lagrange polynomials](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Linear-Interpolation)
+- Divided differences. Hermite interpolation.
+- Cubic spline interpolation.
+
+**Tasks**
+
 ...
