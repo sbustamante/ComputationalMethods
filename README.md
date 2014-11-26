@@ -65,8 +65,8 @@ Contents
     
 **Topics**
 - [Linear interpolation. Lagrange polynomials](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Linear-Interpolation)
-- Divided differences. Hermite interpolation.
-- Cubic spline interpolation.
+- [Divided differences. Hermite interpolation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Divided Differences)
+- Cubic spline interpolation
 
 **Tasks**
 
