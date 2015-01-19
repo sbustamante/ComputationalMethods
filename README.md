@@ -68,6 +68,12 @@ Contents
 - [Divided differences](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Divided-Differences)
 - [Hermite interpolation. Cubic spline interpolation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Hermite-Interpolation)
 
-**Tasks**
+### 5. **Numerical Calculus** *(2 weeks)*
+    
+**Topics**
+- [Numerical derivation. Numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Derivation)
+- Composite numerical integration. Adaptive quadrature methods
+- Multiple integrals. Improper integration
 
+**Tasks**
 ...
