@@ -1,7 +1,7 @@
-Cooling Curve : CIE:Solar											
-
-log(T)	ne	nH	nt	log(lambda net)	log(lambda norm)	log(U)	log(taucool)	P12	rho24	Ci	mubar
-
+#Cooling Curve : CIE:Solar											
+#
+#log(T)	ne	nH	nt	log(lambda net)	log(lambda norm)	log(U)	log(taucool)	P12	rho24	Ci	mubar
+#
 4.00	0.0023	1.000	1.099	-25.65	-23.06	-11.64	11.37	1.532	2.386	8.012	2.166
 4.05	0.0142	1.000	1.099	-24.27	-22.46	-11.59	10.83	1.737	2.386	8.533	2.143
 4.10	0.0704	1.000	1.099	-23.28	-22.17	-11.52	10.58	2.048	2.386	9.264	2.040

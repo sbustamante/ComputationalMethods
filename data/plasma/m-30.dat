@@ -1,7 +1,7 @@
-Cooling Curve : CIE:[Fe/H] = -3.0											
-
-log(T)	ne	nH	nt	log(lambda net)	log(lambda norm)	log(U)	log(taucool)	P12	rho24	Ci	mubar
-
+#Cooling Curve : CIE:[Fe/H] = -3.0											
+#
+#log(T)	ne	nH	nt	log(lambda net)	log(lambda norm)	log(U)	log(taucool)	P12	rho24	Ci	mubar
+#
 4.00	0.0022	1.000	1.064	-26.04	-23.41	-11.66	11.73	1.479	2.114	8.365	1.987
 4.05	0.0141	1.000	1.064	-24.69	-22.87	-11.60	11.23	1.682	2.114	8.919	1.961
 4.10	0.0701	1.000	1.064	-23.53	-22.40	-11.53	10.82	1.985	2.114	9.690	1.864
