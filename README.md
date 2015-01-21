@@ -68,10 +68,14 @@ Contents
 - [Divided differences](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Divided-Differences)
 - [Hermite interpolation. Cubic spline interpolation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Hermite-Interpolation)
 
+### **Test 1 (25%)**
+
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1.ipynb) due to *due to:* **Jan 23, Midnight** (50% of the test).
+
 ### 5. **Numerical Calculus** *(2 weeks)*
     
 **Topics**
-- [Numerical derivation. Numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Derivation)
+- [Numerical differentiation. Numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Differentiation)
 - Composite numerical integration. Adaptive quadrature methods
 - Multiple integrals. Improper integration
 
