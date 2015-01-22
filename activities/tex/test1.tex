@@ -1,0 +1,99 @@
+\documentclass[a4,useAMS,usenatbib,usegraphicx,12pt]{article}
+%External Packages and personalized macros
+\include{macros}
+
+\begin{document}
+\begin{flushleft}
+  \sffamily\bfseries
+  {\Large Parcial 1\hspace{5cm}}\LOGO\\
+  Métodos Computacionales \\
+  Universidad de Antioquia\\
+  Facultad de Ciencias Exactas y Naturales\\  
+  2014-2\\
+  
+\hrulefill\par
+
+  Nombre: \\
+  Cédula: \\
+  \footnotesize 22 Enero 2015
+
+\hrulefill\par
+  
+  \end{flushleft}
+
+
+%==============================================================================
+
+El parcial tiene una duración de 2 horas. Cada numeral tiene un valor del $25\%$.
+
+\begin{itemize}
+
+ \item[\textbf{1.}] 
+ El método de bisección para determinar raíces de funciones presenta una
+ convergencia que escala como $1/2^k$, donde $k$ es el número de iteraciones 
+ realizadas. Una modificación de este método consiste en dividir cada intervalo
+ en $N$ subintervalos en vez de solamente dos. Este conjunto de métodos se pueden
+ denominar métodos de $N$-sección. 
+ 
+ Una ventaja de estos métodos es que la convergencia numérica mejora 
+ sustancialmente ya que escala aproximadamente como $1/N^k$. Sin embargo, en 
+ términos de rendimiento computacional esta ventaja se ve disminuida debido a que 
+ una sola iteración de $N$-sección requiere más tiempo que una iteración de 
+ bisección.
+ 
+ Suponga que la tarea de dividir y evaluar el signo de un subintervalo toma un 
+ tiempo $t_{int}$, que es el mismo para cualquiera de los métodos. \textbf{Calcule 
+ para los métodos $N$-sección cuanto tiempo, en unidades de $t_{int}$, se requiere 
+ para realizar $k$ iteraciones. Usando esta información y la formula para calcular
+ la convergencia (precisión), considera usted que existe alguna ventaja en usar
+ un método en específico?}
+ 
+ \textbf{Pistas:} UNA iteración de bisección toma un tiempo de $2\ t_{int}$ ya 
+ que es necesario dividir en dos subintevalosy evaluar el signo en cada uno de 
+ ellos. 
+ 
+ Si lo considera necesario, cree una tabla para bisección, trisección (3-sección) y 
+ quadri\-sección (4-sección) donde tabule, en términos de cada iteración, la 
+ convergencia y el tiempo acumulado requerido.
+ 
+ 
+ \item[\textbf{2.}] 
+ El método de Newton para encontrar raíces permite evaluar determinar la 
+ solución a partir de un conjunto de iteraciones, donde la $n$-ésima aproximación
+ está dada por
+ 
+ \[ p_{n+1} = p_n - \frac{f(p_n)}{f'(p_n)} \]
+ 
+ Calcular la raíz de la función
+ 
+ \[f(x) = \cos(x)-x\]
+ 
+ dando como valor inicial $p_n = 0$.
+ 
+ \textbf{Tabule los resultados para cada iteración hasta que la aproximación coincida
+ en 5 cifras decimales con la respuesta correcta ($0.73908513321516064$).}
+ 
+ \item[\textbf{3.}] 
+ Demostrar la formula general para los polinomios interpolantes de Lagrange
+ 
+ \[P_n(x) = \sum_{i=0}^n y_i L_{n,i}(x)\]
+ 
+ donde $n$ es el número de datos, $\{x_i\}_i$ y $\{y_i\}_i$ son los datos que se 
+ desean interpolar y $L_{n,i}(x)$ son las funciones base.
+ 
+ \textbf{Pista:} demuestre la expresión para $n=2$ puntos, y generalice la 
+ expresión.
+
+ \item[\textbf{4.}] 
+ Usando los datos $X = \{0.5, 1.2, 3.2\}$ y $Y = \{-1.5, 0.1, 1.4\}$ y la 
+ expresión deducida en el numeral anterior, determinar el polinomio interpolante 
+ de Lagrange para estos puntos. 
+ 
+ Escriba la respuesta de forma factorizada, es decir, $P_n(x) = a_0 + a_1 x + 
+ a_2 x^2+\cdots$
+ 
+\end{itemize}
+
+%==============================================================================
+
+\end{document}
