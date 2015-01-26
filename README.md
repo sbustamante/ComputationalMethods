@@ -80,4 +80,5 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - Multiple integrals. Improper integration
 
 **Tasks**
+- *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
 ...
