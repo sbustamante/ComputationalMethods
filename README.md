@@ -75,9 +75,9 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 ### 5. **Numerical Calculus** *(2 weeks)*
     
 **Topics**
-- [Numerical differentiation. Numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Differentiation)
-- Composite numerical integration. Adaptive quadrature methods
-- Multiple integrals. Improper integration
+- [Numerical differentiation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Differentiation)
+- [Numerical integration. Composite numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Integration)
+- Adaptive quadrature methods. Multiple integrals.
 
 **Tasks**
 - *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
