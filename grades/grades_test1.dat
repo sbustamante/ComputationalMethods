@@ -1,10 +1,10 @@
-ID	Grade_Theoretical	Grade_Computational	Total_Grade	Comments
-1036954494	3			
-1128399324	4.3			
-1017235348	4			
-1216717908	2			
-1093785793	2.5			
-97032810598	4.2			
-1036639073	2.5			
-1036948832	4			
-96071814430	2.3			
+ID	Grade Theoretical	Grade Computational	Total Grade	Comments
+1036954494	3	1.8	2.4	1 PUNTO: (NOTA=1.0). 2 PUNTO: el objetivo era crear una funcion que dada cualquier temperatura, retornara el valor interpolado. Se están usando solo los mismos valores Xn dados inicialmente, ademas la funcion debe recibir como argumento LogT (NOTA=0.5). 3 PUNTO: (NOTA=0.0). 4 PUNTO: No hay figura de CoolingFunction vs M. Se debe hacer procedimiento de doble interpolación con los datos extraídos de Lambda y diferentes metalicidades (NOTA=0.4).
+1128399324	4.3	4.8	4.55	1 PUNTO: (NOTA=1.0). 2 PUNTO: la funcion CoolingFunction debe recibir un valor de metalicidad, no el array completo (NOTA=0.9). 3 PUNTO: la funcion Temperature debe recibir un valor de metalicidad (NOTA=0.9). 4 PUNTO: (NOTA=1.0).
+1017235348	4	2.2	3.1	1 PUNTO: (NOTA=1.0). 2 PUNTO: (NOTA=1.0). 3 PUNTO: la rutina de biseccion debe ser llamada adentro de la funcion Temperature, no al contrario. Ademas, se debe retornar un solo valor en biseccion, no la lista de todas las aproximaciones iteradas (NOTA=0.7). PUNTO 4: se declara arreglo Tn, pero no se usa para los interceptos (NOTA=0.9). COPIA CASI EXACTA DE 1093785793. LA NOTA SE PARTE ENTRE LOS DOS.
+1216717908	2	3.4	2.7	1 PUNTO: (NOTA=1.0). 2 PUNTO: la funcion CoolingFunction debe recibir un valor de metalicidad, no el array completo. No se prueba la funcion (NOTA=0.8). 3 PUNTO: la funcion Temperature debe recibir un valor de metalicidad, no el array completo. No se prueba la funcion. Explicar los argumentos de la funcion, no se entienden (NOTA=0.7). 4 PUNTO: ejes invertidos, label de eje x es metalicidad, no LogT. No se está calculando la interpolación para valores intermedios de metalicidad (NOTA=0.5).
+1093785793	2.5	2.2	2.35	1 PUNTO: (NOTA=1.0). 2 PUNTO: (NOTA=1.0). 3 PUNTO: la rutina de biseccion debe ser llamada adentro de la funcion Temperature, no al contrario. Ademas, se debe retornar un solo valor en biseccion, no la lista de todas las aproximaciones iteradas (NOTA=0.7). PUNTO 4: se declara arreglo Tn, pero no se usa para los interceptos (NOTA=0.9). COPIA CASI EXACTA DE 1017235348. LA NOTA SE PARTE ENTRE LOS DOS.
+97032810598	4.2	4.8	4.5	1 PUNTO: (NOTA=1.0). 2 PUNTO: (NOTA=1.0). 3 PUNTO: el argumento to no es necesario (NOTA=0.95). 4 PUNTO: Los valores de +05 y -05 no son +0.5 y -0.5, esto afecta el procedimiento de interpolacion (NOTA=0.9).
+1036639073	2.5	3.8	3.15	1 PUNTO: (NOTA=1.0). 2 PUNTO: la funcion CoolingFunction debe recibir un valor de metalicidad, no el array completo (NOTA=0.9). 3 PUNTO: la funcion Temperature debe recibir un valor de metalicidad, no el array completo (NOTA=0.9). 4 PUNTO: la funcion CoolingFunctionMetallicity debe recibir un valor cualquiera de metalicidad, no un array correspondiente a los datos inicialmente dados. No se usa el argumento t. No funciona la rutina CoolingFunctionMetallicity (NOTA=0.5)
+1036948832	4	4.7	4.35	1 PUNTO: (NOTA=1.0). 2 PUNTO: la funcion CoolingFunction debe recibir un valor de metalicidad, no el array completo (NOTA=0.9). 3 PUNTO: la funcion Temperature debe recibir un valor de metalicidad, no el array completo (NOTA=0.9). 4 PUNTO: Los valores de +05 y -05 no son +0.5 y -0.5, esto afecta el procedimiento de interpolacion (NOTA=0.9).
+96071814430	2.3	4.7	3.5	1 PUNTO: (NOTA=1.0). 2 PUNTO: (NOTA=1.0). 3 PUNTO: debe especificarse con mas precision el valor inicial del metodo de punto fijo (NOTA=0.8). 4 PUNTO: (NOTA = 0.9).
