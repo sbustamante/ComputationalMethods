@@ -44,7 +44,7 @@ Contents
 ### 2. **Mathematical Preliminaries** *(1 week)*
     
 **Topics**
-- [Computer arithmetics. Round-off methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/computer-arithmetics.ipynb)
+- [Computer arithmetics and round-off methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/computer-arithmetics.ipynb)
 - [Algorithms and convergence](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/algorithms-convergence.ipynb)
 
 **Tasks**
@@ -55,7 +55,8 @@ Contents
 **Topics**
 - [Bisection method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Bisection-Method)
 - [Fixed-point iteration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Fixed-point-Iteration)
-- [Newton-Raphson method. Secant method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Newton-Raphson-Method)
+- [Newton-Raphson method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Newton-Raphson-Method)
+- [Secant method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Secant-Method)
 
 **Tasks**
 - *Task04:* Solve the three activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **Nov 22**).
@@ -64,9 +65,10 @@ Contents
 ### 4. **Interpolation Techniques** *(2 weeks)*
     
 **Topics**
-- [Linear interpolation. Lagrange polynomials](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Linear-Interpolation)
+- [Linear interpolation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Linear-Interpolation)
+- [Lagrange polynomials](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Lagrange-Polynomial)
 - [Divided differences](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Divided-Differences)
-- [Hermite interpolation. Cubic spline interpolation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Hermite-Interpolation)
+- [Hermite interpolation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/interpolation.ipynb#Hermite-Interpolation)
 
 ### **Test 1 (25%)**
 
@@ -76,8 +78,10 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
     
 **Topics**
 - [Numerical differentiation](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Differentiation)
-- [Numerical integration. Composite numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Integration)
-- [Adaptive quadrature methods. Multiple integrals.](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Adaptive-Quadrature-Methods)
+- [Numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Numerical-Integration)
+- [Composite numerical integration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Composite-Numerical-Integration)
+- [Adaptive quadrature methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Adaptive-Quadrature-Methods)
+- [Improper integrals](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Adaptive-Quadrature-Methods)
 
 **Tasks**
 - *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
