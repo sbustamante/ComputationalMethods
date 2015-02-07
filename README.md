@@ -85,5 +85,6 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 **Tasks**
 - *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
+- *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**).
 
 ...
