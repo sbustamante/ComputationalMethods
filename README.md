@@ -87,4 +87,10 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
 - *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**).
 
+### 6. **Linear Algebra** *(2 weeks)*
+    
+**Topics**
+- [Linear systems of equations](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Linear-Systems-of-Equations)
+- [Gaussian elimination](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Gaussian-elimination)
+
 ...
