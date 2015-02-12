@@ -1,0 +1,10 @@
+ID	Grade	Comments
+1036954494	4	Se entregó posteriormente de la fecha de entrega (-0.5). La mantisa del resultado presenta algunos problemas, no es el resultado esperado (-0.5).
+1128399324	0	No se entregó la tarea (-5).
+1017235348	3	Se deben combinar ambas rutinas, la parte entera y la parte decimal, para dar el resultado final. La representación debe ser consistente con float32, es decir 32 dígitos binarios (-2.0).
+1216717908	5	Muy bien.
+1093785793	4	El resultado mostrado no coincíde con el resultado esperado. El número de cifras decimales deben ser 32, consistente con el estándar float32 (-1.0).
+97032810598	4.3	La rutina funciona solo para algunos números. Para otros muestra error por dimensiones negativas (-0.7).
+1036639073	4.2	El objetivo era crear una función explícita completa al cual, dado un número, retorne la representación float32 (-0.8).
+1036948832	5	Muy bien.
+96071814430	3.5	El objetivo era crear una función explícita completa al cual, dado un número, retorne la representación float32 (-0.8). Solo funciona para algunos números. Para otros muestra un error con la mantisa (-0.7).

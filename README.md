@@ -48,7 +48,7 @@ Contents
 - [Algorithms and convergence](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/algorithms-convergence.ipynb)
 
 **Tasks**
-- *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**)
+- *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**)  **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task03.dat)**
     
 ### 3. **One Variable Equations** *(2 weeks)*
     
