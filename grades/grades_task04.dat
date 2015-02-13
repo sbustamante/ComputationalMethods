@@ -1,0 +1,10 @@
+ID	Grade	Comments
+1036954494	4	Era necesario usar la libreria time para evaluar directamente el tiempo requerido (-0.8). El método más eficiente es Trisección. Aunque Cuadrisección converge más rápido, el tiempo requerido no compensa la eficiencia (-0.2).
+1128399324	3	Que puede concluir de la gráfica? Para ilustrar el comportamiento, es recomendable hacer análisis de error con el resultado exacto (-0.1). Falta el análisis del tiempo de cómputo de cada método (-1.7). Qué método es más eficiente? (-0.2).
+1017235348	2.6	Es necesario importar todas las librerias que se usan. Faltó importar time (-0.1). Quadsection no está bien implementado, la solución no converge (-0.5). Que puede concluir de la gráfica? Para ilustrar el comportamiento, es recomendable hacer análisis de error con el resultado exacto (-0.1). Falta el análisis del tiempo de cómputo de cada método (-1.7).
+1216717908	3.7	 Quadsection no está bien implementado, la solución no converge al valor esperado (-0.5). El tiempo de cómputo se debe evaluar cuando se invocan a las rutinas, no cuando se están definiendo (-0.8).
+1093785793	4.2	Era necesario usar la libreria time para evaluar directamente el tiempo requerido (-0.8).
+97032810598	4.8	El método más eficiente es Trisección. Aunque Cuadrisección converge más rápido, el tiempo requerido no compensa la eficiencia para N grandes (-0.2). Buen análisis de errores.
+1036639073	4.9	Etiquetas en la gráfica de error absoluto (-0.1). Buena generalización de la rutina Nsection.
+1036948832	5	Muy bien
+96071814430	4.8	El método más eficiente es Trisección. Aunque Cuadrisección converge más rápido, el tiempo requerido para grandes N no compensa la eficiencia (-0.2).
