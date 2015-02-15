@@ -25,6 +25,9 @@ as the course advances).
 detailed description of the program of the course, including a brief motivation and presentation, 
 topics to be covered, evaluation and bibliography.
 
+[**GRADES**](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/Grades.pdf?raw=true):
+grades of the course.
+
 Contents
 --------
 
