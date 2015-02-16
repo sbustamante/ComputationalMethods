@@ -87,7 +87,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [Improper integrals](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Improper-Integrals)
 
 **Tasks**
-- *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
+- *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task06.dat)**
 - *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**).
 
 ### 6. **Linear Algebra** *(2 weeks)*
