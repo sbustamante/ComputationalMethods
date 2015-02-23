@@ -98,6 +98,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [Pivoting strategies](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Pivoting-Strategies)
 - [Matrix inversion](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Matrix-Inversion)
 - [Determinant of a Matrix](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Determinant-of-a-Matrix)
+- [LU factorization](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#LU-Factorization)
 
 **Tasks**
 - *Task08:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/gauss-jordan.ipynb). (*due to:* **Feb 22**).
