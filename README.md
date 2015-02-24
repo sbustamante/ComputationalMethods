@@ -110,6 +110,6 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 ### 7. **Differential Equations** *(2 weeks)*
     
 **Topics**
-- [First order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Linear-Systems-of-Equations)
+- [First order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#First-Order-Methods)
 
 ...
