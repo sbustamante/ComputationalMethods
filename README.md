@@ -103,4 +103,13 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 **Tasks**
 - *Task08:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/gauss-jordan.ipynb). (*due to:* **Feb 22**).
 
+### **Test 2 (25%)**
+
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a computational activity due to *due to:* **Mar 1, Midnight** (50% of the test).
+
+### 7. **Differential Equations** *(2 weeks)*
+    
+**Topics**
+- [First order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#Linear-Systems-of-Equations)
+
 ...
