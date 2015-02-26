@@ -1,0 +1,131 @@
+\documentclass[a4,useAMS,usenatbib,usegraphicx,12pt]{article}
+%External Packages and personalized macros
+\include{macros}
+
+\begin{document}
+\begin{flushleft}
+  \sffamily\bfseries
+  {\Large Parcial 2\hspace{5cm}}\LOGO\\
+  Métodos Computacionales \\
+  Universidad de Antioquia\\
+  Facultad de Ciencias Exactas y Naturales\\  
+  2014-2\\
+  
+\hrulefill\par
+
+  Nombre: \\
+  Cédula: \\
+  \footnotesize 26 Febrero 2015
+
+\hrulefill\par
+  
+  \end{flushleft}
+
+
+%==============================================================================
+
+El parcial tiene una duración de 2 horas. Cada numeral tiene un valor del $33.33\%$.
+
+\begin{itemize}
+
+ \item[\textbf{1.}] 
+Para derivar numéricamente una función $f(x)$ se pueden usar varias aproximaciones.
+La primera y más trivial está dada por:
+
+$$ f'(x) = \frac{f(x+h)-f(x)}{h} $$
+
+para un paso $h$ que sea suficientemente pequeño.
+
+Aproximaciones mejores pueden ser derivadas a partir la fórmula de $n$-puntos 
+vista durante clase. Como casos especiales se tiene la fórmula de punto medio para
+3 y 5 puntos, dadas respectivamente por:
+
+$$ f'(x) = \frac{1}{2h} [ f(x+h)-f(x-h) ] $$
+
+$$ f'(x) = \frac{1}{12h} [ f(x-2h)-8f(x-h)+8f(x+h)-f(x+2h) ] $$
+
+Tome la función $f(x) = x^2 \cos(x)$ y derívela analíticamente en $x=2$. Calcule la
+misma derivada usando las tres anteriores aproximaciones para valores de $h=0.5, 0.1, 
+0.05, 0.01$. Realice una tabla y tabule el error relativo para cada aproximación
+y para cada paso $h$. ¿Qué puede concluir del comportamiento del error con respecto
+al paso $h$ para cada aproximación?
+
+  \item[\textbf{2.}] Asuma una función $f(x)$ definida sobre un intervalo $[a,b]$.
+Usando el polinomio interpolante de Lagrange de orden $n$, es posible aproximar la
+integral de la función sobre el intervalo $[a,b]$ a través de la siguiente 
+expresión:
+
+$$ \int_a^b f(x) dx \approx \sum_{i=0}^n a_i f(x_i)  $$
+
+donde
+
+$$ a_i = \int_a^b \prod_{j=0,j\neq i}^n \frac{(x-x_j)}{(x_i-x_j)}dx $$.
+
+A partir de esto, demuestre la regla de trapecio:
+
+$$ \int_a^b f(x)dx= \frac{h}{2}[ f(a)+f(b) ] $$
+
+con $h=b-a$.
+
+Y la regla de Simpson:
+
+$$ \int_a^b f(x)dx= \frac{h}{3}[ f(x_0)+4f(x_1)+f(x_2) ] $$
+
+con $x_0=a$, $x_1 = (a+b)/2$, $x_2 =b$ y $h = (b-a)/2$.
+ 
+ 
+ \item[\textbf{3.}] Dada una matriz no singular $A$ de tamaño $n\times n$, es posible
+ calcular su determinante a partir de las siguientes definiciones:
+ 
+ \begin{itemize}
+  \item Si $A=[a]$ es una matriz de tamaño $1\times 1$, el determinante es $\det(A) = a$.
+  \item Si $A$ es una matriz $2\times 2$ dada por:
+  
+  $$ A = \left[\begin{matrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{matrix}\right] $$
+  
+  su determinante está dado por
+  
+  $$ \det(A) = \left|\begin{matrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{matrix}\right| = a_{11}a_{22}-a_{12}a_{21} $$
+  
+  \item Si $A$ es una matriz $n\times n$, el menor $M_{ij}$ está definido como el determinante de la matrix $(n-1)\times (n-1)$
+  obtenida a partir de eliminar la $i$-ésima fila y la $j$-ésima columna de $A$.
+  
+  \item El cofactor $A_{ij}$ asociado al menor $M_{ij}$ está definido por:
+  
+  $$ A_{ij} = (-1)^{i+j}M_{ij} $$.
+  
+  \item El determinante de la matriz $A$ puede calcularse a partir de cualquiera de las siguientes
+  expresiones:
+  
+  $$ \det(A) = \sum_{j=1}^n a_{ij}A_{ij} $$
+  
+  ó
+  
+  $$ \det(A) = \sum_{i=1}^n a_{ij}A_{ij} $$
+  
+  Es decir, puede usarse una columna o una fila para la sumatoria.
+  
+ \end{itemize}
+
+A partir de estas propiedades, cualquier determinante puede ser calculado de forma recursiva.
+Demueste que el número de multiplicaciones que son requeridas para calcular el determinante 
+de una matriz $A$ de tamaño $n\times n$, cuando $n$ es grande, está dado por:
+
+$$ N_{mult} \approx n!e $$
+
+donde $e$ es el número de Euler.
+
+Teniendo en cuenta que para un computador toma un tiempo mayor realizar una operación de 
+multiplicación/división que una operación suma/resta, $N_{mult}$ representa también el tiempo
+de cómputo total del algorítmo en unidades del tiempo inidividual de cada operación.
+ 
+ 
+\textbf{Ayuda:} el término $(-1)^{i+j}$ del cofactor $A_{ij}$ no representa un tiempo considerable
+para un computador puesto que el valor será siempre $1$ o $-1$ y la multiplicación es trivial.
+Por lo tanto, no considere esta multiplicación cuando calcule $N_{mult}$.
+ 
+\end{itemize}
+
+%==============================================================================
+
+\end{document}
