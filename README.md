@@ -112,4 +112,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 **Topics**
 - [First order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#First-Order-Methods)
 
+**Tasks**
+- *Task09:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/leapfrog_integration.ipynb). (*due to:* **Mar 8**).
+
 ...
