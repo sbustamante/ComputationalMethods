@@ -105,7 +105,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 ### **Test 2 (25%)**
 
-This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test2.ipynb) due to *due to:* **Mar 1, Midnight** (50% of the test).
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test2.ipynb) due to *due to:* **Mar 1, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test2.dat)**
 
 ### 7. **Differential Equations** *(2 weeks)*
     
