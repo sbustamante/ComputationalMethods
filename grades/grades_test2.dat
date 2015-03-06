@@ -1,10 +1,10 @@
 ID	Grade Theoretical	Grade Computational	Total Grade	Comments
 1036954494	5	1.8	3.4	Falta punto 1 (-3.0). Soluciones finales del punto 2 presentan un comportamiento segmentado extraño (-0.2).
-1128399324	5	2.45	3.73	Cuanto vale el redshift de la galaxia? (-0.1). COPIA CASI EXACTA DE EXAMEN DE 1036639073, LA NOTA SE PARTE ENTRE LOS DOS.
+1128399324	5	4.5	4.75	Cuanto vale el redshift de la galaxia? (-0.1). COPIA CASI EXACTA DE EXAMEN DE 1036639073, 0.9 DE LA NOTA.
 1017235348	3.2	4.05	3.63	Mapa de emisión de Lyman alpha no esta integrado sobre el intervalo dado (-0.2). Falta gráfica de soluciones x_i(t) (-0.75).
 1216717908	3.7	4.1	3.9	Hay problemas con la normalización de los índices RGB (-0.1). Bonus (+0.5 teórico). Faltan funciones q_i(t) y x_i(t) y sus gráficas (-0.8).
 1093785793	5	4.5	4.75	Hay problemas con la normalización de los índices RGB (-0.1). Faltan funciones x_i(t) (-0.4).
 97032810598	5	5	5	Muy bien!
-1036639073	5	2.45	3.73	Cuanto vale el redshift de la galaxia? (-0.1). COPIA CASI EXACTA DE EXAMEN DE 1128399324, LA NOTA SE PARTE ENTRE LOS DOS.
+1036639073	5	0.49	2.73	Cuanto vale el redshift de la galaxia? (-0.1). COPIA CASI EXACTA DE EXAMEN DE 1128399324, 0.1 DE LA NOTA.
 1036948832	5	4.9	4.95	Hay problemas con la normalización de los índices RGB (-0.1).
 96071814430	2	3.4	2.7	La imagen de falso color no se genera bien. Los rangos de integración se deben seleccionar con un condicional AND (-0.4). Se debe imprimir los resultados de redshift y longitud de onda de Lyman alpha (-0.2). En el segundo punto, no se imprime la matriz M ni la matriz A. (-0.3). No se grafican las funciones x_i(t) ni q_i(t) (-0.7).
