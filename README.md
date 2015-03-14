@@ -116,3 +116,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 **Tasks**
 - *Task09:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/leapfrog_integration.ipynb). (*due to:* **Mar 8**).
+
+### **Test 3 (25%)**
+
+This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) due to *due to:* **Mar 17, Midnight** (100% of the test).
