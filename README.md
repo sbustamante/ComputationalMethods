@@ -75,7 +75,7 @@ Contents
 
 ### **Test 1 (25%)**
 
-This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1.ipynb) due to *due to:* **Jan 23, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test1.dat)**
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1.ipynb) *due to:* **Jan 23, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test1.dat)**
 
 ### 5. **Numerical Calculus** *(2 weeks)*
     
@@ -105,7 +105,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 ### **Test 2 (25%)**
 
-This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test2.ipynb) due to *due to:* **Mar 1, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test2.dat)**
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test2.ipynb) *due to:* **Mar 1, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test2.dat)**
 
 ### 7. **Differential Equations** *(2 weeks)*
     
@@ -119,4 +119,4 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 ### **Test 3 (25%)**
 
-This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) due to *due to:* **Mar 17, Midnight** (100% of the test).
+This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) *due to:* **Mar 17, Midnight** (100% of the test).
