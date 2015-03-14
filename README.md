@@ -88,7 +88,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 **Tasks**
 - *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task06.dat)**
-- *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**).
+- *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task07.dat)**
 
 ### 6. **Linear Algebra** *(2 weeks)*
     
@@ -101,7 +101,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [LU factorization](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#LU-Factorization)
 
 **Tasks**
-- *Task08:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/gauss-jordan.ipynb). (*due to:* **Feb 22**).
+- *Task08:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/gauss-jordan.ipynb). (*due to:* **Feb 22**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task08.dat)**
 
 ### **Test 2 (25%)**
 
@@ -115,7 +115,7 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [Two-Point boundary value problems](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#Two-Point-Boundary-Value-Problems)
 
 **Tasks**
-- *Task09:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/leapfrog_integration.ipynb). (*due to:* **Mar 8**).
+- *Task09:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/leapfrog_integration.ipynb). (*due to:* **Mar 8**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task09.dat)**
 
 ### **Test 3 (25%)**
 
