@@ -119,4 +119,4 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 
 ### **Test 3 (25%)**
 
-This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) *due to:* **Mar 17, Midnight** (100% of the test).
+This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) *due to:* **Mar 17, Midnight** (100% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test3.dat)**

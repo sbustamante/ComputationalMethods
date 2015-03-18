@@ -1,0 +1,10 @@
+ID	Grade Computational	Comments
+1036954494	2.8	Grafica de potencial no está sobre el rango pedido (-0.3). Rutina Henon-Heiles no encuentra condiciones iniciales y no integra el sistema (-1.3). No se grafican los diagramas de Poincaré (-1.6).
+1128399324	5	Muy bien.
+1017235348	5	Muy bien.
+1216717908	4.7	Grafica de potencial está rotada (-0.1). Se imprimen datos inecesarios. El tiempo de integración debe ser mayor (-0.2).
+1093785793	5	Muy bien.
+97032810598	5	Muy bien.
+1036639073	-	
+1036948832	4.4	Faltan diagramas para algunas energías. Las condiciones iniciales no están seleccionadas correctamente (-0.6).
+96071814430	5	Muy bien.
