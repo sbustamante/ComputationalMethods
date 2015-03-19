@@ -2,6 +2,8 @@ Computational Methods for Astronomy
 ===================================
 by: **Sebastian Bustamante** *2014*
 
+![](https://raw.githubusercontent.com/sbustamante/ComputationalMethods/master/material/figures/Collage.png)
+
 This course is intended for students of Astronomy at the Universidad de Antioquia 
 and will cover some numerical methods commonly used in science and specially in 
 astronomy. These topics will be addressed from a formal context but also keeping 
