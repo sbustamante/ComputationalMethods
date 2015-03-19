@@ -25,8 +25,6 @@ as the course advances).
 detailed description of the program of the course, including a brief motivation and presentation, 
 topics to be covered, evaluation and bibliography.
 
-[**GRADES**](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/Grades.pdf?raw=true):
-grades of the course.
 
 Contents
 --------
@@ -41,8 +39,8 @@ Contents
 - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
 
 **Tasks**
-- *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**) **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task01.dat)**
-- *Task02:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/halos-catalog.ipynb). (*due to:* **Nov 08**) **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task02.dat)**
+- *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/basic-scripting.ipynb#Miscellanea). (*due to:* **Oct 31**).
+- *Task02:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/halos-catalog.ipynb). (*due to:* **Nov 08**).
     
 ### 2. **Mathematical Preliminaries** *(1 week)*
     
@@ -51,7 +49,7 @@ Contents
 - [Algorithms and convergence](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/algorithms-convergence.ipynb)
 
 **Tasks**
-- *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**)  **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task03.dat)**
+- *Task03:* Solve the two activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/binary-representation.ipynb). (*due to:* **Nov 15**).
     
 ### 3. **One Variable Equations** *(2 weeks)*
     
@@ -62,8 +60,8 @@ Contents
 - [Secant method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Secant-Method)
 
 **Tasks**
-- *Task04:* Solve the three activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **Nov 22**)   **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task04.dat)**
-- *Task05:* Solve the activity discussed [during class](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radius-exoplanet.ipynb). (*due to:* **Nov 29**)   **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task05.dat)**
+- *Task04:* Solve the three activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **Nov 22**).
+- *Task05:* Solve the activity discussed [during class](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radius-exoplanet.ipynb). (*due to:* **Nov 29**).
 
 ### 4. **Interpolation Techniques** *(2 weeks)*
     
@@ -75,7 +73,7 @@ Contents
 
 ### **Test 1 (25%)**
 
-This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1.ipynb) *due to:* **Jan 23, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test1.dat)**
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1.ipynb) *due to:* **Jan 23, Midnight** (50% of the test).
 
 ### 5. **Numerical Calculus** *(2 weeks)*
     
@@ -87,8 +85,8 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [Improper integrals](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Improper-Integrals)
 
 **Tasks**
-- *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task06.dat)**
-- *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task07.dat)**
+- *Task06:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/radial-poisson.ipynb). (*due to:* **Feb 1**).
+- *Task07:* Solve the activity proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/ficks-law.ipynb). (*due to:* **Feb 15**).
 
 ### 6. **Linear Algebra** *(2 weeks)*
     
@@ -101,11 +99,11 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [LU factorization](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/linear-algebra.ipynb#LU-Factorization)
 
 **Tasks**
-- *Task08:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/gauss-jordan.ipynb). (*due to:* **Feb 22**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task08.dat)**
+- *Task08:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/gauss-jordan.ipynb). (*due to:* **Feb 22**).
 
 ### **Test 2 (25%)**
 
-This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test2.ipynb) *due to:* **Mar 1, Midnight** (50% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test2.dat)**
+This test is divided in two parts. A theoretical part that will be evaluated during class time (50% of the test). And a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test2.ipynb) *due to:* **Mar 1, Midnight** (50% of the test).
 
 ### 7. **Differential Equations** *(2 weeks)*
     
@@ -115,8 +113,8 @@ This test is divided in two parts. A theoretical part that will be evaluated dur
 - [Two-Point boundary value problems](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#Two-Point-Boundary-Value-Problems)
 
 **Tasks**
-- *Task09:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/leapfrog_integration.ipynb). (*due to:* **Mar 8**)    **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_task09.dat)**
+- *Task09:* Solve the activities proposed in [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/leapfrog_integration.ipynb). (*due to:* **Mar 8**).
 
 ### **Test 3 (25%)**
 
-This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) *due to:* **Mar 17, Midnight** (100% of the test). **[GRADES](https://github.com/sbustamante/ComputationalMethods/blob/master/grades/grades_test3.dat)**
+This test is entirely comprehended by a [computational activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test3.ipynb) *due to:* **Mar 17, Midnight** (100% of the test).
