@@ -40,6 +40,9 @@ Contents
 - [Plotting with matplotlib](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/matplotlib.ipynb)
 - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
 
+**Tasks**
+- *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/miscellanea-python.ipynb). (*due to:* **May 3**).
+
 ### 2. **Mathematical Preliminaries** *(1 week)*
     
 **Topics**
