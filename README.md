@@ -41,7 +41,8 @@ Contents
 - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
 
 **Tasks**
-- *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/miscellanea-python.ipynb). (*due to:* **May 3**).
+- *Task01:* Solve the problems in the section [Miscellanea.](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/miscellanea-python.ipynb). (*due to:* **May 3**).
+- *Task02:* Solve the prosed activites [here.](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/SPH-simulation.ipynb). (*due to:* **May 17**).
 
 ### 2. **Mathematical Preliminaries** *(1 week)*
     
