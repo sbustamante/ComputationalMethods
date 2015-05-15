@@ -58,6 +58,9 @@ Contents
 - [Newton-Raphson method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Newton-Raphson-Method)
 - [Secant method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Secant-Method)
 
+**Tasks**
+- *Task03:* Solve the prosed activites [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **May 25**).
+
 ### 4. **Interpolation Techniques** *(2 weeks)*
     
 **Topics**
