@@ -62,7 +62,7 @@ Contents
 - *Task03:* Solve the prosed activites [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **May 25**).
 
 ### TEST 1
-- Solve the next [activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). This computational activity represents 50% of the total grade for the test 1. (*due to:* **Jun 15, Midnight**).
+- Solve the next [activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1_20151.ipynb). This computational activity represents 50% of the total grade for the test 1. (*due to:* **Jun 15, Midnight**).
 
 ### 4. **Interpolation Techniques** *(2 weeks)*
     
