@@ -97,3 +97,8 @@ Contents
 - [First order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#First-Order-Methods)
 - [High order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#High-Order-Methods)
 - [Two-Point boundary value problems](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#Two-Point-Boundary-Value-Problems)
+
+### 8. **Statistics** *(1 weeks)*
+
+**Topics**
+- [Data adjust](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/statistics.ipynb)
