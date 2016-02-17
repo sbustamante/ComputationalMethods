@@ -1,10 +1,10 @@
 Computational Methods for Astronomy
 ===================================
-by: **Sebastian Bustamante** *2014/2015/2016*
+by: **Sebastian Bustamante** *2014/2015*
 
 ![](https://raw.githubusercontent.com/sbustamante/ComputationalMethods/master/material/figures/Collage.png)
 
-This course is intended for students of Astronomy at the Universidad de Antioquia 
+This course is intended for students of Astronomy and Physics at the Universidad de Antioquia 
 and will cover some numerical methods commonly used in science and specially in 
 astronomy. These topics will be addressed from a formal context but also keeping 
 a practical and computational approach, illustrating many useful applications in
@@ -40,9 +40,8 @@ Contents
 - [Plotting with matplotlib](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/matplotlib.ipynb)
 - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
 
-**Tasks**
-- *Task01:* Solve the problems in the section [Miscellanea](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/miscellanea-python.ipynb). (*due to:* **May 3**).
-- *Task02:* Solve the prosed activites [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/SPH-simulation.ipynb). (*due to:* **May 17**).
+**Activities**
+- *Activity 01:* Solve the problems in the section [Miscellanea](https://github.com/sbustamante/ComputationalMethods/blob/master/material/Basic_exercises.ipynb). 
 
 ### 2. **Mathematical Preliminaries** *(1 week)*
     
@@ -57,12 +56,6 @@ Contents
 - [Fixed-point iteration](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Fixed-point-Iteration)
 - [Newton-Raphson method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Newton-Raphson-Method)
 - [Secant method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Secant-Method)
-
-**Tasks**
-- *Task03:* Solve the prosed activites [here](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/bisection-performance.ipynb). (*due to:* **May 25**).
-
-### TEST 1
-- Solve the next [activity](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/activities/test1_20151.ipynb). This computational activity represents 50% of the total grade for the test 1. (*due to:* **Jun 15, Midnight**).
 
 ### 4. **Interpolation Techniques** *(2 weeks)*
     
@@ -98,7 +91,7 @@ Contents
 - [High order methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#High-Order-Methods)
 - [Two-Point boundary value problems](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/differential-equations.ipynb#Two-Point-Boundary-Value-Problems)
 
-### 8. **Statistics** *(1 weeks)*
+### 8. **Statistics** *(1 week)*
 
 **Topics**
 - [Data adjust](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/statistics.ipynb)
