@@ -31,7 +31,7 @@ topics to be covered, evaluation and bibliography.
 Contents
 --------
 
-### 1. **Python** *(2 weeks)*
+### 1. **Python** *(1 week)*
     
 **Topics**
 - [Overview of python](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/overview-python.ipynb)
