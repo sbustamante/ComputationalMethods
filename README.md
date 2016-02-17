@@ -23,7 +23,7 @@ notebooks) and homeworks. (This repository may be subject to changes continuousl
 as the course advances).
 
 
-[**SYLLABUS**](https://github.com/sbustamante/ComputationalMethods/blob/master/syllabus/syllabus.pdf?raw=true):
+[**SYLLABUS**](https://github.com/sbustamante/ComputationalMethods/raw/master/syllabus/Programa_M%C3%A9todos_Computacionales.pdf):
 detailed description of the program of the course, including a brief motivation and presentation, 
 topics to be covered, evaluation and bibliography.
 
