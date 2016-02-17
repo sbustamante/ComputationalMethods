@@ -41,7 +41,7 @@ Contents
 - [Ipython notebooks](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/ipython-notebooks.ipynb)
 
 **Activities**
-- *Activity 01:* Solve the problems in the section [Miscellanea](https://github.com/sbustamante/ComputationalMethods/blob/master/material/Basic_exercises.ipynb). 
+- *Activity 01:* Solve the problems in the section [Exercises](https://github.com/sbustamante/ComputationalMethods/blob/master/material/Basic_exercises.ipynb). 
 
 ### 2. **Mathematical Preliminaries** *(1 week)*
     
