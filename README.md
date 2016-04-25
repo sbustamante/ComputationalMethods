@@ -77,6 +77,9 @@ Contents
 - [Adaptive quadrature methods](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Adaptive-Quadrature-Methods)
 - [Improper integrals](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/numerical-calculus.ipynb#Improper-Integrals)
 
+**Activities**
+- *Activity:* [ Derivative exercise ](http://nbviewer.jupyter.org/github/sbustamante/ComputationalMethods/blob/master/activities/T-profile-bar.ipynb)
+
 ### 6. **Linear Algebra** *(2 weeks)*
     
 **Topics**
