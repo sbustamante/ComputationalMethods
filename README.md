@@ -101,4 +101,4 @@ Contents
 
 **Topics**
 - [Data adjust](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/statistics.ipynb)
-- [Data adjust](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/statistics.ipynb#Random-Numbers)
+- [Random Numbers](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/statistics.ipynb#Random-Numbers)
