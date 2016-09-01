@@ -57,9 +57,6 @@ Contents
 - [Newton-Raphson method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Newton-Raphson-Method)
 - [Secant method](http://nbviewer.ipython.org/github/sbustamante/ComputationalMethods/blob/master/material/one-variable-equations.ipynb#Secant-Method)
 
-**Activities**
-- *Activity 01:* [Fixed point exercise](http://nbviewer.jupyter.org/github/sbustamante/ComputationalMethods/blob/master/activities/task01.ipynb)
-
 ### 4. **Interpolation Techniques** *(2 weeks)*
     
 **Topics**
