@@ -1,6 +1,7 @@
 Computational Methods for Astronomy
 ===================================
-by: **Sebastian Bustamante** *2014/2015*
+by: **Sebastian Bustamante** *2014/2015* **Diego Restrepo ** 2017/...**  **Michal H. ** 2021/...
+
 
 ![](https://raw.githubusercontent.com/sbustamante/ComputationalMethods/master/material/figures/Collage.png)
 
