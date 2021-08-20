@@ -1,4 +1,4 @@
-Istructions:
+Instructions:
 - submit the homework in the .ipynb format with the name of the file corresponding to the exercise 
 example: interpolation.ipynb
 
