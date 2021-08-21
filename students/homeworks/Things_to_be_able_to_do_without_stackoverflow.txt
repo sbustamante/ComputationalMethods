@@ -33,4 +33,4 @@ how to the same plot in the loop							fig, axis = plt.subplots(2,2)
 													axis[i,j].imshow(A)
 
 
-
+*** more will come!
