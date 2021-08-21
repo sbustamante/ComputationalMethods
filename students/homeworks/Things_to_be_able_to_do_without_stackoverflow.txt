@@ -15,8 +15,9 @@ how to plot sinusoid with a range from -pi to pi					x=np.linspace(-np.pi,np.pi,
 											y=np.sin(x)
 											fig, axis = plt.subplots(1,1)
 											axis.scatter(x,y)
-	
-how to plot the 10x10 array as an image 						fig, axis = plt.subplots(1,1)
+											axis.plot(x,y)
+
+how to plot a 10x10 array as an image							fig, axis = plt.subplots(1,1)
 											axis.imshow(A)
 											
 how to plot four arrays each size 10x10 as an image 					fig, axis = plt.subplots(2,2)
@@ -28,8 +29,8 @@ how to plot four arrays each size 10x10 as an image 					fig, axis = plt.subplot
 how to the same plot in the loop							fig, axis = plt.subplots(2,2)
 											xrange = np.arange(2)
 											for i in xrange:
-    												for j in xrange:
-        												axis[i,j].imshow(A)
+												for j in xrange:
+													axis[i,j].imshow(A)
 
 
 
