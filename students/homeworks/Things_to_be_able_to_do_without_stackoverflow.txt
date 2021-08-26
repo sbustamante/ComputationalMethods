@@ -1,0 +1,36 @@
+Numpy array:
+how to import numpy library								import numpy as np
+how to create 1D numpy array 								x=np.array([1,2,3])
+how to create 2D numpy array 								x=np.array([[1,2,3],[4,5,6]])
+how to generate 10 random integers from the range 1-100					x=np.random.randint(1,100,10)    
+how to generate a 10x10 matrix with random uniform numbers 				A=np.random.rand(10,10)
+how to generate a numpy array from 0 to np.pi with 100 evenly spaced elements		x=np.linspace(0,np.pi,100)
+how to generate ordered integers from 0 to 10						x=np.arange(10)
+
+
+
+Plotting:
+how to import plotting library								import matplotlib.pyplot as plt
+how to plot sinusoid with a range from -pi to pi					x=np.linspace(-np.pi,np.pi,100)
+											y=np.sin(x)
+											fig, axis = plt.subplots(1,1)
+											axis.scatter(x,y)
+											axis.plot(x,y)
+
+how to plot a 10x10 array as an image							fig, axis = plt.subplots(1,1)
+											axis.imshow(A)
+											
+how to plot four arrays each size 10x10 as an image 					fig, axis = plt.subplots(2,2)
+											axis[0,0].imshow(np.random.rand(10,10))
+											axis[0,1].imshow(np.random.rand(10,10))
+											axis[1,0].imshow(np.random.rand(10,10))
+											axis[1,1].imshow(np.random.rand(10,10))
+
+how to the same plot in the loop							fig, axis = plt.subplots(2,2)
+											xrange = np.arange(2)
+											for i in xrange:
+												for j in xrange:
+													axis[i,j].imshow(A)
+
+
+*** more will come!
