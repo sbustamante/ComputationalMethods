@@ -1,0 +1,457 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "realistic-roads",
+   "metadata": {},
+   "source": [
+    "A $m \\times n$ matrix can be defined as a set of numbers arranged in columns and rows such as (m x n):\n",
+    "\n",
+    "$$ \\textbf{A} = [a_{ij}] = \\left[ \\matrix{\n",
+    "a_{11} & a_{12} & \\cdots & a_{1n} \\\\\n",
+    "a_{21} & a_{22} & \\cdots & a_{2n} \\\\\n",
+    "\\vdots & \\vdots & & \\vdots\\\\\n",
+    "a_{m1} & a_{m2} & \\cdots & a_{mn} \n",
+    "}\\right] $$\n",
+    "\n",
+    "In the same way, it is possible to define a $n$-dimensional column vector as (m x 1)\n",
+    "\n",
+    "$$ \\textbf{x} = \\left[ \\matrix{\n",
+    "x_{1} \\\\\n",
+    "x_{2} \\\\\n",
+    "\\vdots\\\\\n",
+    "x_{n} \n",
+    "}\\right] $$\n",
+    "\n",
+    "and a row vector (1 x m)\n",
+    "\n",
+    "$$ \\textbf{y} = \\left[ \\matrix{\n",
+    "y_{1} &\n",
+    "y_{2} &\n",
+    "\\cdots &\n",
+    "y_{n} \n",
+    "}\\right] $$"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "complimentary-bulletin",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "interpreted-kenya",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "M1=\n",
+      "[[ 5 -4  0]\n",
+      " [-4  7 -3]\n",
+      " [ 0 -3  5]], with shape=(3, 3)\n"
+     ]
+    }
+   ],
+   "source": [
+    "#NumPy Arrays\n",
+    "M1 = np.array( [[ 5 ,-4, 0],\n",
+    "                [-4 , 7,-3],\n",
+    "                [ 0 ,-3, 5]] )\n",
+    "print( 'M1=\\n{}, with shape={}'.format(M1,M1.shape) )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "japanese-softball",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import sympy as sp\n",
+    "#x = sympy.Symbol('x') # declare analytical varibles\n",
+    "#sympy.init_printing() # Use LaTeX to print sympy objects"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "statewide-underground",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/latex": [
+       "$\\displaystyle \\left[\\begin{matrix}5 & -4 & 0\\\\-4 & 7 & -3\\\\0 & -3 & 5\\end{matrix}\\right]$"
+      ],
+      "text/plain": [
+       "Matrix([\n",
+       "[ 5, -4,  0],\n",
+       "[-4,  7, -3],\n",
+       "[ 0, -3,  5]])"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sp.Matrix(M1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "floppy-passenger",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "(3, 3)"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sp.Matrix(M1).shape"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "christian-orchestra",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/latex": [
+       "$\\displaystyle \\left[\\begin{matrix}1 & 2 & 3\\end{matrix}\\right]$"
+      ],
+      "text/plain": [
+       "Matrix([[1, 2, 3]])"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#Row vector:\n",
+    "row_vec = np.array([[1, 2, 3]])  \n",
+    "sp.Matrix(row_vec)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "infinite-magazine",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/latex": [
+       "$\\displaystyle \\left[\\begin{matrix}1\\\\2\\\\3\\end{matrix}\\right]$"
+      ],
+      "text/plain": [
+       "Matrix([\n",
+       "[1],\n",
+       "[2],\n",
+       "[3]])"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# column vector\n",
+    "col_vec = np.array([1,2,3])\n",
+    "sp.Matrix(col_vec)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 122,
+   "id": "north-inspection",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/latex": [
+       "$\\displaystyle \\left[\\begin{matrix}4 & 3 & 3\\\\2 & 3 & 4\\\\1 & 2 & 1\\end{matrix}\\right]$"
+      ],
+      "text/plain": [
+       "Matrix([\n",
+       "[4, 3, 3],\n",
+       "[2, 3, 4],\n",
+       "[1, 2, 1]])"
+      ]
+     },
+     "execution_count": 122,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "M1=np.random.randint(1,5,(3,3))\n",
+    "M2=np.random.randint(1,5,(3,3))\n",
+    "\n",
+    "sp.Matrix(M1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 123,
+   "id": "accepted-example",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/latex": [
+       "$\\displaystyle \\left[\\begin{matrix}3 & 4 & 3\\\\3 & 3 & 2\\\\1 & 4 & 1\\end{matrix}\\right]$"
+      ],
+      "text/plain": [
+       "Matrix([\n",
+       "[3, 4, 3],\n",
+       "[3, 3, 2],\n",
+       "[1, 4, 1]])"
+      ]
+     },
+     "execution_count": 123,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "sp.Matrix(M2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "charming-girlfriend",
+   "metadata": {},
+   "source": [
+    "## Arithmetic array operations\n",
+    "Arithmetic array operations +, -, /, * and ** are performed elementwise on NumPy arrays.\n",
+    "That means that the shape of array A and arrab B has to AGREE in order to use +, -, /, *  operations"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "amateur-democracy",
+   "metadata": {},
+   "source": [
+    "## Matrix addition:\n",
+    "\n",
+    "(m x n) + (m x n) = (m x n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 124,
+   "id": "saving-modem",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "M1=\n",
+      " [[4 3 3]\n",
+      " [2 3 4]\n",
+      " [1 2 1]]\n",
+      "M2=\n",
+      " [[3 4 3]\n",
+      " [3 3 2]\n",
+      " [1 4 1]]\n",
+      "M1+M2=\n",
+      " [[7 7 6]\n",
+      " [5 6 6]\n",
+      " [2 6 2]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('M1=\\n',M1)\n",
+    "print('M2=\\n',M2)\n",
+    "print('M1+M2=\\n',M1+M2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "important-strategy",
+   "metadata": {},
+   "source": [
+    "## Matrix subtraction:\n",
+    "(m x n) - (m x n) = (m x n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "id": "informative-selling",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "M1=\n",
+      " [[4 3 3]\n",
+      " [2 3 4]\n",
+      " [1 2 1]]\n",
+      "M2=\n",
+      " [[3 4 3]\n",
+      " [3 3 2]\n",
+      " [1 4 1]]\n",
+      "M1+M2=\n",
+      " [[ 1 -1  0]\n",
+      " [-1  0  2]\n",
+      " [ 0 -2  0]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('M1=\\n',M1)\n",
+    "print('M2=\\n',M2)\n",
+    "print('M1+M2=\\n',M1-M2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "id": "least-fields",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-126-51c4242dc91f>, line 2)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-126-51c4242dc91f>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    (m x n) / (m x n) = (m x n)\u001b[0m\n\u001b[0m       ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "## Matrix division:\n",
+    "(m x n) / (m x n) = (m x n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 127,
+   "id": "rational-application",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "M1=\n",
+      " [[4 3 3]\n",
+      " [2 3 4]\n",
+      " [1 2 1]]\n",
+      "M2=\n",
+      " [[3 4 3]\n",
+      " [3 3 2]\n",
+      " [1 4 1]]\n",
+      "M1/M2=\n",
+      " [[1.33333333 0.75       1.        ]\n",
+      " [0.66666667 1.         2.        ]\n",
+      " [1.         0.5        1.        ]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print('M1=\\n',M1)\n",
+    "print('M2=\\n',M2)\n",
+    "print('M1/M2=\\n',M1/M2)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "continuing-freight",
+   "metadata": {},
+   "source": [
+    "## Scalar Matrix Operations\n",
+    "\n",
+    "x*(m x n) = (m x n)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "id": "disturbed-vulnerability",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x=\n",
+      " 5\n",
+      "M1=\n",
+      " [[4 3 3]\n",
+      " [2 3 4]\n",
+      " [1 2 1]]\n",
+      "x*M2=\n",
+      " [[20 15 15]\n",
+      " [10 15 20]\n",
+      " [ 5 10  5]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "x=5\n",
+    "print('x=\\n',x)\n",
+    "print('M1=\\n',M1)\n",
+    "print('x*M2=\\n',x*M1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "timely-colony",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "## Matrix Multiplication"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.2"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

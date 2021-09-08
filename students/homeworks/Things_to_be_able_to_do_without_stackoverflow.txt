@@ -6,6 +6,8 @@ how to generate 10 random integers from the range 1-100					x=np.random.randint(
 how to generate a 10x10 matrix with random uniform numbers 				A=np.random.rand(10,10)
 how to generate a numpy array from 0 to np.pi with 100 evenly spaced elements		x=np.linspace(0,np.pi,100)
 how to generate ordered integers from 0 to 10						x=np.arange(10)
+how to generate single random number from the uniform distribution between 2 and 5	x=np.random.uniform(2,5)
+how to generate 100 random numbers from the uniform distribution between 2 and 5	x=np.random.uniform(2,5,100)
 
 
 
@@ -32,5 +34,10 @@ how to the same plot in the loop							fig, axis = plt.subplots(2,2)
 												for j in xrange:
 													axis[i,j].imshow(A)
 
+
+calcualte integral									import scipy.integrate as integrage
+											integrate.quad(fun...)
+calcualte derivatte									
+											
 
 *** more will come!
