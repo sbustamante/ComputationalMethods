@@ -35,9 +35,24 @@ how to the same plot in the loop							fig, axis = plt.subplots(2,2)
 													axis[i,j].imshow(A)
 
 
-calcualte integral									import scipy.integrate as integrage
-											integrate.quad(fun...)
-calcualte derivatte									
-											
+INTERPOLATION
+what are the methods of interpolation							spline, hermite, Lagrange polynomial
+which one is most common								spline
+how does spline work									piecewice interpolation for each pair... etc
 
-*** more will come!
+DIFFERENTIATION 
+what is the geometrical interpretation of derivative					slope
+how to find derivative using Python							from scipy.misc import derivative
+											derivative(y,x)
+what scheme uses Python scipy.misc.derivative and why					central difference
+
+
+INTEGRATION
+what is the geometrical interpretation of integration (simplyfied)			area under the curve
+how to calcualte integral using Python							import scipy.integrate as integrage
+											integrate.quad(fun...)
+what are the schemes for the numerical integration					trapezoid, Simpson, Quad
+
+how can one estimate numerical integral using Monte Carlo Method			acceptance-rejection, mean value method
+what are the advantages and disadvantages of Monte Carlo Method				slower and less precise for simple integrals (quad is better)
+											but can be useful for highdimensional complex integrals
