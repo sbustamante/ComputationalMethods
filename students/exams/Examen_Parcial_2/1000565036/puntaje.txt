@@ -1,0 +1,32 @@
+TOTAL:					21/30
+
+###########################################
+Ejercicio 1: 				6p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			1p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	1p
+
+ - usted hizo np.gradient(X,Y) corecto es: np.gradient(Y,X)
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- todo bien
+###########################################
+
+Ejercicio 3:				5p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			2p
+c) explicar diferecia entre metodos	1p
+
+- casi bien usted hizo np.trapz(X,Y) corecto es: np.trapz(Y,X)
+###########################################

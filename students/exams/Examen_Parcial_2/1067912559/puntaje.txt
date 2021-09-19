@@ -1,0 +1,40 @@
+TOTAL:					28/30
+
+###########################################
+Ejercicio 1: 				8p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			1p
+e) hacer grafico de Cv vs T		1p
+f) explicar diferecia entre metodos	2p
+
+- evita colocar puntos fixo
+  xdata = np.linspace(0, 6e-7, 100)
+  en caso de pandas usa: Temperature.iloc[0] como primer punto
+  en caso de np.arrays use Temperature[0] como primer punto
+
+-casi bien! en este caso np.gradient necesita dos argumentos (en este orden)  
+  Cv = np.gradient(y,x)
+  CV = np.gradient(f(xdata),xdata)
+  
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+ - bien!
+###########################################
+
+Ejercicio 3:				10p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			5p
+c) explicar diferecia entre metodos	3p
+
+ - bien
+###########################################

@@ -1,0 +1,59 @@
+TOTAL:					12/30			
+###########################################
+Ejercicio 1: 				4p
+
+a) importar datos 			1p
+b) interpoar puntos 			1p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			0p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	1p
+
+
+- interpolacion usted hizo: xn = np.linspace(0,31,100) pero tenia que hacer:
+  xn=np.linspace(np.min(Temperature),np.max(Temperature),100)
+  # or
+  xn=np.linspace(Temperature.iloc[0],Temperature.iloc[-1],100)
+- derivada de funcion es otra function
+  en el caso de datos mejor usar Cv=np.gradient(Pressure,Temperature)
+  si hay funcion dada mejor usar derivative(...)
+  
+###########################################
+
+Ejercicio 2: 				4p
+a) implementacion corecta de integral 	3
+b) grafico para diferentes puntos	1
+
+- muy bien que usted uso list comprehension! (estoy de acuerdo metodo append no es muy eficiente)
+
+- mira abajo yo escribi ejemplo que usted podia hacer con list comprehension
+- acuerda que pasamos dos argumentos para integral no uno
+  porque si a cambio de 1 a 10 usted tenia que hacer todo de nuevo
+  
+###########################################
+
+Ejercicio 3:				4p
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			0p
+c) explicar diferecia entre metodos	2p
+
+- usted puede resolver integral.quad con los datos (sin funcion) pero es mas complicado
+- usando np.trapz es mas facil
+- scipy.integrate.quad es mejora para si uno sabe funcion
+  scipy.integrate.trapz (np.trapz) si usted tiene datos crudos y no sabe la relacion entre los variables
+###########################################
+
+
+Ejercicio 2:
+
+def integrand(x,a,i):
+    I = np.sin(a*x) + np.cos(i*x**2)
+    return I  
+
+a = 1
+b = np.linspace(0,1,101)
+Integral = np.array([integrate.quad(integrand, 0, 10,args=(a,i))[0] for i in b])   
+
+
+

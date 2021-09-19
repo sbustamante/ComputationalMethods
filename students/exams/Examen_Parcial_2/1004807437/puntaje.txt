@@ -1,0 +1,34 @@
+TOTAL:					25/30
+
+###########################################
+Ejercicio 1: 				10p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			3p
+e) hacer grafico de Cv vs T		1p
+f) explicar diferecia entre metodos	2p
+
+- derivada de puntos se puede consequir mas facil
+  deriv_f=np.gradient(Y,X)
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+###########################################
+
+Ejercicio 3:				5p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			1p
+c) explicar diferecia entre metodos	2p
+
+- casi bien. 
+  usted hizo:       : m= 2 * np.pi * scipy.integrate.trapezoid(d, r)
+  corectamente seria: m= 2 * np.pi * scipy.integrate.trapz(d*r, r)
+###########################################

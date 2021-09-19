@@ -1,0 +1,45 @@
+TOTAL:					16/30
+
+###########################################
+Ejercicio 1: 				3p
+
+a) importar datos 			1p
+b) interpoar puntos 			1p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			0p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	0p
+
+- mira los SOLUCIONES y analiza como hacer la interpolacion y derivada de puntos!
+- usted realmente no hizo plot de datos interpolados 
+  solamente hizo un plot con puntos y otro con linea :)
+
+  plt.plot(tem,pre,label='Presión vs Temperatura',c='black')
+  ax.scatter(tem, pre,label='interpolacion', c= 'red')
+
+- tenia que ser:
+  plt.scatter(xdata,inter(xdata),label='Presión vs Temperatura',c='black')
+  
+- en caso de datos (no funcion, mejor usar np.gradient(Pressure,Temperature)) mira orden de parametros
+  
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- bien
+###########################################
+
+Ejercicio 3:				3p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			1p
+c) explicar diferecia entre metodos	0p
+
+- en caso de tener puntos mejor no usar scipy.integrate.quad pero:
+
+  m=2.0*np.pi*scipy.integrate.trapz(radius*density,radius)
+###########################################

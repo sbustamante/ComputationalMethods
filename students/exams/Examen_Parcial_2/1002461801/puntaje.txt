@@ -1,0 +1,33 @@
+TOTAL:					23/30
+
+###########################################
+Ejercicio 1: 				10p
+
+a) importar datos 			1p
+b) interpoar puntos 			0p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			0p
+e) hacer grafico de Cv vs T		1p
+f) explicar diferecia entre metodos	0p
+
+- usted confundio interpolacion con fitting polynomio
+
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- muy bien
+###########################################
+
+Ejercicio 3:				10p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			5p
+c) explicar diferecia entre metodos	3p
+
+- muy bien
+###########################################

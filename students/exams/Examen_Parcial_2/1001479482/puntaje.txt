@@ -1,0 +1,45 @@
+TOTAL:					17/30
+
+###########################################
+Ejercicio 1: 				5p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			1p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	0p
+
+- interpolacion con spline esta bien slo que 
+  usted hizo xdata = np.linspace(0, 31, 31, endpoint=True)
+  pero uno tiene que pasar todos los puntos para interpolar
+  np.linspace(np.min(Temperature),np.max(Temperature),100)
+  # or
+  np.linspace(Temperature.iloc[0],Temperature.iloc[-1],100)
+- derivada de una funcion o serie de datos no es un valor pero otra funcion o
+  o otro serie de datos.
+  En este caso mejor seria usar: np.gradient(Pressure,Temperature) 
+
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- todo bien
+###########################################
+
+Ejercicio 3:				2p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			0p
+c) explicar diferecia entre metodos	0p
+
+- ultimo valor de radius o de density uno puede consequir
+  density.iloc[-1],radius.iloc[-1]
+- integral definida es un numero (area de la curva)
+- en este caso (con datos) seria mejor usar 
+  m=2.0*np.pi*scipy.integrate.trapz(radius*density,radius)
+###########################################

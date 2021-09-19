@@ -1,0 +1,48 @@
+TOTAL:					25/30
+
+###########################################
+Ejercicio 1: 				6p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			0p
+d) derivada numerica 			1p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	2p
+
+- usted hizo plot plt.scatter(P, T, c='k')
+  pero correcto plt.scatter(T, P, c='k')
+- usted hizo interpolacion un poco complicado 
+  pero es correcto. Unico que fue problema es 
+  cambiar de orden de variables. Por eso los plots parecen mal
+- La proxima vez usa interpolacion mas simple:
+  f_interpolation = interpolate.interp1d(Temperature,Pressure,kind='cubic')  #Using cubic splines.
+  ## or 
+  f_interpolation = CubicSpline(Temperature, Pressure)
+  
+- Derivada de los puntos : Cv=np.gradient(Pressure,Temperature)
+  Mira el orden de variables es diferente otra vez 
+  Uno se puede confundir!
+   
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- bien
+###########################################
+
+Ejercicio 3:				9p
+
+a) importar datos 			1p
+b) hacer grafico			0p
+c) resolver integral 			5p
+c) explicar diferecia entre metodos	3p
+
+- mismo error que en primero ejercicio;
+  - hacer de funcion. densidad depende de radius (d(r)) no al contrario
+  plt.plot(density, radius) es incorecto
+   
+###########################################

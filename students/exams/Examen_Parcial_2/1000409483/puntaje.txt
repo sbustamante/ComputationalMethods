@@ -1,0 +1,37 @@
+TOTAL:					19/30
+##########################################
+
+Ejercicio 1: 				4p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			0p
+d) derivada numerica 			0p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	1p
+
+- Todo seria buen trabajo, solamente que usted confundio que es 'X' y que es 'Y'!
+- interpolacion corecta per tambien X Y son confundidos
+
+##########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- todo OK
+
+##########################################
+
+Ejercicio 3:				5p
+
+a) importar datos 			1p
+b) hacer grafico			0p
+c) resolver integral 			1p
+c) explicar diferecia entre metodos	3p
+
+- Mismo aqui, densidad es funcion de radius no al contrario
+- np.trapz(density,radius) seria corecto, solo falto: np.trapz(radius*density,radius)
+  mira el integral
+

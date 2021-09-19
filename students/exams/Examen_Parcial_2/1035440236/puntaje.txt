@@ -1,0 +1,43 @@
+TOTAL:					19/30
+
+###########################################
+Ejercicio 1: 				p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			0p
+e) hacer grafico de Cv vs T		0p
+f) explicar diferecia entre metodos	1p
+
+- en la vida real se usa dos rutinas de interpolacion:
+  f_interpolation = interpolate.interp1d(Temperature,Pressure,kind='cubic')  #Using cubic splines.
+  ## or 
+  f_interpolation = CubicSpline(Temperature, Pressure)
+- el codigo muestra error: name 'H' is not defined 
+- derivada de puntos (no funcion) es mejor realizar con np.gradient(Y,X)
+
+###########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	5
+b) grafico para diferentes puntos	5
+
+- todo bien aqui
+
+###########################################
+
+Ejercicio 3:				4p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral 			1p
+c) explicar diferecia entre metodos	1p
+
+-  casi bien, mira el integral:
+   usted hizo:
+   integral=2*np.pi*np.trapz(df1['radius'],df1['density'])
+   tenia que hacer:
+   integral=2*np.pi*np.trapz(df1['radius']*df1['density'],df1['radius'])
+###########################################
