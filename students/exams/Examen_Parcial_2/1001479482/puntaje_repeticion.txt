@@ -1,0 +1,39 @@
+TOTAL:					28/30 * 0.9 = 25/30 puntos
+##########################################
+
+Ejercicio 1: 				9p
+
+a) importar datos 			0p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			2p
+e) hacer grafico de Cv vs T		1p
+f) estimacion de temperature critica	1p
+g) explicacion inluencia de derivada	1p
+h) calcular temp critica np.argmax	1p
+
+- porque usted importo datos de excel document xls?
+- evite colocar numeros print('Temperatura crítica en:',Temp_interp[67])
+  usa variables:
+  
+##########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	10
+
+- todo corecto
+
+##########################################
+
+Ejercicio 3:				9p
+
+
+a) importar datos 			1p
+b) hacer grafico			0p
+c) resolver integral with np.trapz	4p
+c) resolver integral with scipy.quad	4p
+
+- no entiendo porque usted uso datos de examen de semana pasada?
+- pero todos esta hecho corectamente
+

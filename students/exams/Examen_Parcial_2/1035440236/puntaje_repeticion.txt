@@ -1,0 +1,30 @@
+TOTAL:					29/30 * 0.9 = 26 / 30 puntos
+##########################################
+
+Ejercicio 1: 				10p
+
+a) importar datos 			1p
+b) interpoar puntos 			2p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			2p
+e) hacer grafico de Cv vs T		1p
+f) estimacion de temperature critica	1p
+g) explicacion inluencia de derivada	0p
+h) calcular temp critica np.argmax	1p
+
+##########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	10
+
+
+##########################################
+
+Ejercicio 3:				10p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral with np.trapz	4p
+c) resolver integral with scipy.quad	4p
+

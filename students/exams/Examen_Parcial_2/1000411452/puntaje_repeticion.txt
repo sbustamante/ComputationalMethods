@@ -1,0 +1,42 @@
+TOTAL:					29/30 * 0.9 = 26/30 puntos
+##########################################
+
+Ejercicio 1: 				9p
+
+a) importar datos 			1p
+b) interpoar puntos 			1p
+c) hacer grafico P vs T			1p
+d) derivada numerica 			2p
+e) hacer grafico de Cv vs T		1p
+f) estimacion de temperature critica	1p
+g) explicacion inluencia de derivada	1p
+h) calcular temp critica np.argmax	1p
+
+- usted importo scipy.interpolate import CubicSpline
+- pero uso  interpolate.interp1d
+- si usted usa interpolate.interp1d necesita specificar kind='cubic'
+
+- entonces fspline = interpolate.interp1d(df.Temperature, df.Pressure,kind='cubic')
+ o 
+ fspline = CubicSpline(df.Temperature, df.Pressure)
+
+- primer gradinent de los puntos usted usted uso np.gradient(X,Y) pero tiene que ser np.gradient(Y,X)
+ pero segundo gradient es corecto
+
+##########################################
+
+Ejercicio 2: 				10p
+
+a) implementacion corecta de integral 	10
+- todo OK
+
+##########################################
+
+Ejercicio 3:				10p
+
+a) importar datos 			1p
+b) hacer grafico			1p
+c) resolver integral with np.trapz	4p
+c) resolver integral with scipy.quad	4p
+
+- todo OK
